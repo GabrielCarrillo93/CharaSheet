@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <title>Hoja de Personaje</title>
+</head>
+<body>
+    
+<header>
+    <h1>Hoja de Personaje</h1> 
+    </header>
+    
+    <main>
+    
+    <div class="grid-4">
+      <fieldset>
+        <legend>Nombre del personaje</legend>
+        <input type="text" name="nompj" id="nompj" />
+      </fieldset>
+      <fieldset>
+        <legend>Lvl</legend>
+        <input type="number" name="" id="" min="1" max="20" />
+      </fieldset>
+      <fieldset>
+      <legend>Raza</legend>
+        <select name="" id="">
+          <optgroup label="Manual del Jugador">
+          <option value="Humano">Humano</option>
+          <option value="Dracónido">Dracónido</option>
+          <option value="Enano">Enano</option>
+          <option value="Elfo">Elfo</option>
+          <option value="Semi-elfo">Semi-elfo</option>
+          <option value="Semi-orco">Semi-orco</option>
+          <option value="Mediano">Mediano</option>
+          <option value="Gnome">Gnome</option>
+          <option value="Tiefling">Tiefling</option>
+        </optgroup>
+      </select>
+      </fieldset>
+      <fieldset>
+        <legend>Clase</legend>
+        <select name="" id="">
+          <option value="">Bárbaro</option>
+          <option value="">Bardo</option>
+          <option value="">Brujo</option>
+          <option value="">Clérigo</option>
+          <option value="">Druida</option>
+          <option value="">Explorador</option>
+          <option value="">Guerrero</option>
+          <option value="">Hechicero</option>
+          <option value="">Mago</option>
+          <option value="">Monje</option>
+          <option value="">Paladín</option>
+        <option value="">Pícaro</option>
+        </select>
+      </fieldset>
+      <fieldset>
+      <legend>Trasfondo</legend>
+      <select name="" id="">
+        <option value="">Acólito</option>
+        <option value="">Animador</option>
+        <option value="">Artesano Gremial</option>
+        <option value="">Charlatán</option>
+        <option value="">Criminal</option>
+        <option value="">Ermitaño</option>
+        <option value="">Erudito</option>
+        <option value="">Héroe del Pueblo</option>
+        <option value="">Huérfano</option>
+        <option value="">Marinero</option>
+        <option value="">Noble</option>
+        <option value="">Salvaje</option>
+        <option value="">Soldado</option>
+      </select>
+      </fieldset>
+      <fieldset>
+        <legend>Alineamiento</legend>
+          <select name="Alineamiento" id="Alineamiento">
+            <option value="Legal Bueno">Legal Bueno</option>
+            <option value="Neutral Bueno">Neutral Bueno</option>
+            <option value="Caótico Bueno">Caótico Bueno</option>
+            <option value="Legal Neutral">Legal Neutral</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Caótico Neutral">Caotico Neutral</option>
+            <option value="Legal Malvado">Legal Malvado</option>
+            <option value="Neutral Malvado">Neutral Malvado</option>
+            <option value="Caótico Malvado">Caótico Malvado</option>
+        </select>
+      </fieldset>
+      <fieldset>
+      <legend>Nombre del Jugador</legend>
+      <input type="text" name="nomjug" id="nomjug"/>
+      </fieldset>
+      <fieldset>
+      <legend>EXP</legend>
+      <input type="number" name="" id="" min="1" />
+      </fieldset>
+    </div>
+    
+    
+    <div class="grid-3">
+      <section>
+        <div class="col-4" id="statblock">
+          <fieldset>
+          <input type="number" name="" id="" min="1" />
+          <input type="number" name="" id="" min="1" disabled />
+          <legend>STR</legend>
+          </fieldset>
+          <fieldset>
+          <input type="number" name="" id="" min="1" />
+          <input type="number" name="" id="" min="1" disabled />
+          <legend>DEX</legend>
+          </fieldset>
+          <fieldset>
+          <input type="number" name="" id="" min="1" />
+          <input type="number" name="" id="" min="1" disabled />
+          <legend>CON</legend>
+          </fieldset>
+          <fieldset>
+          <input type="number" name="" id="" min="1" />
+          <input type="number" name="" id="" min="1" disabled />
+          <legend>INT</legend>
+          </fieldset>
+          <fieldset>
+          <input type="number" name="" id="" min="1" />
+          <input type="number" name="" id="" min="1" disabled />
+          <legend>WIS</legend>
+          </fieldset>
+          <fieldset>
+          <input type="number" name="" id="" min="1" />
+          <input type="number" name="" id="" min="1" disabled />
+          <legend>CHAR</legend>
+          </fieldset>
+        </div>
+      
+      
+        <div class="col-6"
+        id="inspiracion">
+          <input type="number" name="" id="insp">
+          Inspiracion
+        </div>
+      
+        <div class="col-6" id="bonificacion">
+          <input type="number" name="" id="bon">Bonificador de competencia
+        </div>
+      
+        <div class="col-6" id="salvacion">
+          <div class="col-12">
+            <input type="checkbox" name="" id=""/>
+            <input type="number" name="" id="">
+            <label for="">Fuerza</label></div> 
+          <div class="col-12"><input type="checkbox" name="" id="" /><input type="number" name="" id=""> <label for="">Destreza</label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><input type="number" name="" id=""> <label for="">Constitución</label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><input type="number" name="" id=""> <label for="">Inteligencia</label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><input type="number" name="" id=""> <label for="">Sabiduria</label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><input type="number" name="" id=""> <label for="">Carisma</label></div>
+          tiradas de salvacion
+        </div>
+      
+        <div class="col-6" id="habilidades">
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Acrobacias<span class="aclar">(dex)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Atletismo<span class="aclar">(fue)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> C. Arcano<span class="aclar">(int)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Engaño<span class="aclar">(car)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Historia<span class="aclar">(int)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Interpretacion<span class="aclar">(car)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Intimidacion<span class="aclar">(car)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Juego de manos<span class="aclar">(des)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Medicina<span class="aclar">(sab)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Naturaleza<span class="aclar">(int)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Percepcion<span class="aclar">(sab)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Perspicacia<span class="aclar">(sab)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Persuacion<span class="aclar">(car)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Religion<span class="aclar">(int)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Sigilo<span class="aclar">(des)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> Supervivencia<span class="aclar">(sab)</span></label></div>
+          <div class="col-12"><input type="checkbox" name="" id="" /><label for=""><input type="number" name="" id=""> T. con animales<span class="aclar">(sab)</span></label></div>
+          habilidades
+        </div>
+      
+        <div class="col-11" id="perpas">
+          <input type="number" name="" id="">
+          <label for="">Sabiduría (percepción) pasiva</label>
+        </div>
+      
+        <div class="col-11" id="otrcom">
+          <textarea name="" id="" rows="10"></textarea>
+          otras competencias e idiomas
+        </div>
+      </section>
+      
+      <section>
+        <div class="col-11" id="vida">
+          <div class="grid-3">
+            <fieldset>
+            <input type="number" name="" id="" min="1" />
+            <legend>
+            <img src="img/escudo.png" alt="Clase de armadura" width="20px" />
+            </legend>
+            </fieldset>
+            <fieldset class="">
+            <input type="number" name="" id="" min="1" />
+            <legend>
+            <img src="img/caminar.png" alt="Iniciativa" width="20px" height="25px" />
+            </legend>
+            </fieldset>
+            <fieldset class="">
+            <input type="number" name="velocidad" id="velocidad" min="1" />
+            <legend>
+            <img src="img/velocidad.png" alt="Velocidad" width="20px" height="25px" />
+            </legend>
+            </fieldset>
+          </div>
+          <div class="col-12">
+            <label for="" id="">puntos de golpe actuales</label>
+            <input type="number" name="" id="" disabled />
+            <label for="" id="">puntos de golpe temporales</label>
+          </div>
+          <div class="col-5">
+            <label for="" id="" class="centrar">total</label>
+            <input type="text" name="" id="total"/>
+          
+            <input type="number" name="" id="ddg"/>
+            <label for="" id="" class="centrar">dados de golpe</label>
+          </div>
+          
+          <div class="col-5">
+            <fieldset>
+              <legend>exitos</legend>
+              <input type="checkbox" name="" id="" /><input type="checkbox" name="" id="" /><input type="checkbox"
+              name="" id="" />
+            </fieldset>
+            <fieldset>
+              <legend>fallos</legend>
+              <input type="checkbox" name="" id="" /><input type="checkbox" name="" id="" /><input type="checkbox" name=""
+              id="" />
+            </fieldset>
+            <label for="" id="">salvaciones contra muerte</label>
+          </div>
+        </div>
+      
+        <div class="col-11" id="atqcon">
+          <table>
+          <tr>
+          <th class="Tname">Nombre</th>
+          <th class="Tbon">Bonificador</th>
+          <th class="Tdan">Daño/Tipo</th>
+          </tr>
+          <tr>
+          <td class="Tname"></td>
+          <td class="Tbon"></td>
+          <td class="Tdan"></td>
+          </tr>
+          <tr>
+          <td class="Tname"></td>
+          <td class="Tbon"></td>
+          <td class="Tdan"></td>
+          </tr>
+          <tr>
+          <td class="Tname"></td>
+          <td class="Tbon"></td>
+          <td class="Tdan"></td>
+          </tr>
+          </table>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <span class="centrar">ataques y lanzamiento de conjuros</span>
+        </div>
+      
+        <div class="col-11" id="equipo">
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <span class="centrar">equipo</span>
+        </div>
+      </section>
+      
+      <section>
+        <div class="col-11" id="personalidad">
+          <textarea name="" id="" rows="10"></textarea>
+          <span class="centrar">rasgos de personalidad</span>
+          <textarea name="" id="" rows="10"></textarea>
+          <span class="centrar">ideales</span>
+          <textarea name="" id="" rows="10"></textarea>
+          <span class="centrar">vinculos</span>
+          <textarea name="" id="" rows="10"></textarea>
+          <span class="centrar">defectos</span>
+        </div>
+      
+        <div class="col-11" id="rasgos">
+          <textarea name="" id="" rows="25"></textarea>
+          <span class="centrar">rasgos y atributos</span>
+        </div>
+      </section>
+    </div>
+    
+    </main>
+    
+    <footer>
+    <span>Codificado por <a href="#">Gabriel Ivan Carrillo</a></span>
+    </footer>
+    <script src="js/script.js"></script>
+    </body>
+    
+</body>
+</html>
